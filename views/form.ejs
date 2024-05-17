@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h2>Add Message</h2>
+   <form action="/new" method="post">
+    <div>
+        <b><label for="user">Author Name: </label></b>
+        <input id="user" type="text" name="user">
+    </div>
+    <br>
+    <div>
+        <b> <label for="message">Message: </label></b>
+        <input id="message" type="text" name="message">
+    </div>
+<br>
+    <div>
+        <input id="add-message" type="submit" value="Add Message">
+    </div>
+   </form>
+  </body>
+</html>
